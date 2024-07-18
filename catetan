@@ -1,0 +1,24 @@
+- variabel
+    1. var
+        Digunakan untuk mendeklarasikan variabel yang tipe datanya dapat berubah-ubah. Dart akan menginfer tipe data variabel tersebut berdasarkan nilai awal yang diberikan. 
+        contoh : var nama = "John";
+    
+    2. final 
+        Digunakan untuk mendeklarasikan variabel yang nilainya hanya dapat ditetapkan sekali. Setelah nilai diberikan, variabel ini tidak dapat diubah. Namun, berbeda dengan const, nilai final dapat diketahui saat runtime.
+        contoh : final age = 25;
+    
+    3. dynamic
+        Digunakan untuk mendeklarasikan variabel yang tipe datanya dapat berubah-ubah selama runtime. Ini memberikan fleksibilitas, tetapi juga mengorbankan type safety.
+        contoh :    dynamic something = 'Hello';
+                    something = 10; 
+    
+    4. const
+        Digunakan untuk mendeklarasikan variabel yang nilainya hanya dapat ditetapkan sekali. Nilai const tidak dapat diubah. Ini memberikan fleksibilitas, tetapi juga mengorbankan type safety.
+        contoh : const pi = 3.14;
+    
+    5. Tipe Data Eksplisit
+        Kamu juga dapat mendeklarasikan variabel dengan tipe data yang spesifik. Ini berguna untuk menjaga type safety dan membuat kode lebih mudah dibaca.
+        contoh :    int age = 25;
+                    String name = 'John';
+                    bool isMarried = false;
+                    double pi = 3.14;

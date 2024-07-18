@@ -1,0 +1,29 @@
+Fungsi 'main':
+
+- 'void main()': Fungsi 'main' adalah titik awal eksekusi program Dart. Semua program Dart harus memiliki fungsi 'main'.
+- Deklarasi 'noodles': Membuat objek 'noodles' dari kelas 'MenuItem' dengan judul "fried noodles" dan harga 5.99.
+- Deklarasi spaghetti: Membuat objek 'spaghetti' dari kelas 'Spaghetti' dengan daftar toppings, judul "spaghetti", dan harga 8.99.
+- print(noodles.format()): Memanggil metode 'format' pada objek noodles dan mencetak hasilnya.
+- print(spaghetti.format()): Memanggil metode 'format' pada objek spaghetti dan mencetak hasilnya.
+- print("you buy a..."): Mencetak pesan yang menggabungkan judul dan harga dari objek 'noodles' dan 'spaghetti'.
+
+Kelas 'MenuItem':
+
+- 'class MenuItem': Mendefinisikan kelas 'MenuItem'.
+- 'String title;': Mendeklarasikan variabel instance 'title' dengan tipe data String.
+- 'double price;': Mendeklarasikan variabel instance 'price' dengan tipe data double.
+- Konstruktor 'MenuItem(this.title, this.price)':
+    - Konstruktor untuk kelas 'MenuItem' yang menerima dua parameter ('title' dan 'price') dan menginisialisasi variabel instance.
+    - 'this.title' dan 'this.price' merujuk ke variabel instance 'title' dan 'price' dari objek yang sedang dibuat.
+- Metode 'format()':
+    - Mengembalikan string yang memformat 'title' dan 'price'.
+    - 'return "$title --> $price"'; menghasilkan string yang menggabungkan nilai 'title' dan 'price'.
+
+Kelas 'Spaghetti':
+
+- 'class Spaghetti extends MenuItem': Mendefinisikan kelas 'Spaghetti' yang merupakan subkelas dari 'MenuItem'. Ini berarti 'Spaghetti' mewarisi semua properti dan metode dari 'MenuItem'.
+- 'List<String> toppings';: Mendeklarasikan variabel instance 'toppings' dengan tipe data 'List<String>', yang akan menyimpan daftar topping untuk spaghetti.
+- Konstruktor 'Spaghetti(this.toppings, super.title, super.price)':
+    - Konstruktor untuk kelas 'Spaghetti' yang menerima tiga parameter: 'toppings', 'title', dan 'price'.
+    - 'this.toppings' menginisialisasi variabel instance 'toppings'.
+    - 'super.title' dan 'super.price' menginisialisasi variabel instance 'title' dan 'price' di kelas induk ('MenuItem').
