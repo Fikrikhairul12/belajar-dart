@@ -1,0 +1,14 @@
+GENERICS
+
+Generics di Dart adalah fitur yang memungkinkan Anda untuk membuat kode yang lebih fleksibel, dapat digunakan 
+kembali, dan aman dari tipe dengan menentukan tipe parameter pada class, fungsi, atau koleksi. Dengan menggunakan 
+generics, Anda dapat menghindari penggunaan tipe yang terlalu umum seperti Object, yang bisa menyebabkan masalah 
+tipe runtime. Generics membantu Anda menangkap kesalahan tipe pada waktu kompilasi, sehingga meningkatkan keamanan 
+dan keandalan kode.
+
+Salah satu fungsi utama dari generics adalah untuk memungkinkan Anda menyatukan class, fungsi, atau struktur 
+lainnya yang secara logika dan struktur sama tetapi bekerja dengan tipe data yang berbeda. Dengan menggunakan 
+generics, Anda bisa membuat satu class atau fungsi yang fleksibel dan dapat digunakan kembali dengan berbagai tipe 
+data, tanpa harus membuat beberapa class atau fungsi yang secara struktural sama tetapi berbeda hanya pada tipe 
+data yang digunakan.
+

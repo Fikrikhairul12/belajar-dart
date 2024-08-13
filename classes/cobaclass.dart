@@ -8,13 +8,13 @@ void main(){
   print("you buy a ${noodles.title} and a ${spaghetti.title} for ${noodles.price + spaghetti.price}");
 }
 
-class MenuItem{
+class MenuItem{ //class
   String title;
   double price;
 
   MenuItem(this.title, this.price);
 
-  String format(){
+  String format(){ //function
     return "$title --> $price";
   }
 }

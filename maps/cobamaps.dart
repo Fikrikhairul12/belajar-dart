@@ -1,5 +1,5 @@
 void main(){
-  var planets = {
+  Map<String, String> planets = {
     "first": "Mercury",
     "second": "Venus",
     "third": "Earth",

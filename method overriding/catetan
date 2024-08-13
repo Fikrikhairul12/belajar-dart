@@ -1,0 +1,8 @@
+OVERRIDE
+
+Fungsi dari @override dalam kode Dart adalah untuk menunjukkan bahwa metode atau properti yang didefinisikan dalam 
+subclass sedang menggantikan (meng-override) metode atau properti yang didefinisikan dalam superclass.
+
+dalam hal ini seperti mencegah duplikasi method atau properti pada class.
+penggunaan @override tidak mempengaruhi code jika tidak ada yang perlu digantikan, jadi jika menggunakannya dalam
+kondisi tersebut tidak berpengaruh.
